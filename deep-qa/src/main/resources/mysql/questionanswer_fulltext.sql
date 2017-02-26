@@ -36,7 +36,7 @@ CREATE  TABLE `questionanswer_fulltext`.`evidence` (
 
     ON UPDATE NO ACTION);
     
-CREATE  TABLE `questionanswer`.`rewind` (
+CREATE  TABLE `questionanswer_fulltext`.`rewind` (
 
   `id` INT NOT NULL AUTO_INCREMENT ,
 
